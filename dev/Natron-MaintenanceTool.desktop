@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Natron Maintenance Tool
+Exec=/home/lince/Natron-BETA/MaintenanceTool
+Icon=natronIcon256_linux
+Categories=Graphics;2DGraphics;RasterGraphics;
+
+Name[es_CO.utf8]=NMT.desktop
