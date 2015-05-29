@@ -1,16 +1,16 @@
 # Maintainer: Juan Jimenez < asdksawea@outlook.es >
-pkgname=natron
+pkgname=natron-bin-dev
 pkgver=1.2.1
 pkgrel=1
-arch=('i386' 'x86_64')
+arch=('x86_64')
 pkgdesc='Video compositing software similar to Nuke and Adobe AfterEffects'
 url='http://natron.inria.fr/'
 license=MPL
 depends=('qt4' 'boost-libs' 'expat' 'glew' 'cairo')
 makedepends=('boost' 'shiboken')
 optdepends=('blender: for 3d opencolor-io support')
-conflicts=('natron' 'natron-rc' 'natron-bin-dev'  )
-source=("$pkgname-$pkgver.tar.gz")
+conflicts=('natron' 'natron-rc' 'natron-bin'  )
+source=("https://bytebucket.org/triceratops2/natron-bin-64/raw/97b48114c00ad96c8cef9214973a75d3f5edc8d5/beta.tar.xz")
 sha256sums=('8129c52accd7e3cb5bbcb079b0b6ac3aa96b8abf8cf32dac117d34e33263104c')
 
 prepare() {
